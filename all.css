@@ -51,7 +51,7 @@ text-align: center;
 .title_first_name {
 color: white;
 font-family: 'little_daysregular';
-font-size:120px;
+font-size: 120px;
 text-align: center;
 margin-bottom: 0px;
 text-shadow: 7px 4px 1px grey;
@@ -59,7 +59,7 @@ text-shadow: 7px 4px 1px grey;
 .title_last_name {
 color: #6f1679;
 font-family: 'bebas_neueregular';
-font-size:70px;
+font-size: 70px;
 text-align: center;
 margin-top: -45px;
 letter-spacing: 10px;
@@ -68,7 +68,7 @@ text-transform: uppercase;
 .contact {
 color: white;
 font-family: 'bebas_neueregular';
-font-size:20px;
+font-size: 20px;
 text-align: center;
 letter-spacing: 10px;
 text-decoration: none;
@@ -80,18 +80,19 @@ width: 100%;
 text-align: center;
 margin: 0 auto;
 padding: 0;
+line-height: 1.5;
 }
 .email a[href^="mailto"] {
 color: white;
 font-family: 'bebas_neueregular';
-font-size:20px;
+font-size: 20px;
 text-align: center;
 letter-spacing: 10px;
 text-decoration: none;
 }
 .fa-arrow-right, .fa-twitter, .fa-linkedin-square, .fa-envelope-o {
 color: white;
-font-size:20px;
+font-size: 20px;
 text-align: center;
 margin: 0 auto;
 letter-spacing: 10px;
@@ -99,18 +100,18 @@ text-decoration: none;
 }
  li {
 color: white;
-font-size:20px;
+font-size: 20px;
 letter-spacing: 10px;
 text-decoration: none;
 list-style: none;
 width: 20%;
 margin: 0 auto;
-text-align:left;
+text-align: left;
 }
 a {
 color: #6f1679;
 font-family: 'bebas_neueregular';
-font-size:30px;
+font-size: 30px;
 text-align: center;
 letter-spacing: 3px;
 text-decoration: none;
