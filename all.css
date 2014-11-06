@@ -76,7 +76,6 @@ margin-bottom: 20px;
 }
  ul {
 display:block;
-position: absolute;
 width: 100%;
 text-align: center;
 margin: 0 auto;
@@ -104,7 +103,7 @@ font-size:20px;
 letter-spacing: 10px;
 text-decoration: none;
 list-style: none;
-width: 50%;
+width: 20%;
 margin: 0 auto;
 }
 a {
