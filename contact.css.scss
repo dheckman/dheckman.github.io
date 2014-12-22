@@ -1,0 +1,45 @@
+body {
+	background-color: #f0f0f0;;
+}
+.contact {
+	color: #ed786a;
+	font-family: 'Arvo', serif;
+	font-size:40px;
+	text-align: center;
+	margin-top: 100px;
+	text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+	margin-bottom: 0px;
+}
+.contact-sub {
+	color: #888;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+a.phone, a.email {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ed786a;
+}
+a.phone:hover, a.email:hover {
+	color: #888;
+}
+a.github, a.twitter, a.linkedin {
+	color: #888;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a.github:hover, a.twitter:hover, a.linkedin:hover {
+	color: #ed786a;
+}
+
+.links {
+	margin-top: 10px;
+}
+.contact-divider {
+	width: 450px;
+	color: #ed786a;
+	border-bottom: 1px solid #ed786a;
+	border-top: 1px solid #888;
+	padding: 3px;
+	border-left: none;
+}
