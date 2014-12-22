@@ -140,6 +140,9 @@ a.code {
 .bubble-float-bottom:hover:before, .bubble-float-bottom:focus:before, .bubble-float-bottom:active:before {
   bottom: -10px;
 }
+a.bubble-float-bottom {
+	padding: 10px;
+}
 ul {
 	display:block;
 	width: 100%;
