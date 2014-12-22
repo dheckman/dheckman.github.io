@@ -60,15 +60,6 @@ margin-top: 100px;
 text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 }
 
-.contact {
-color: white;
-font-family: 'bebas_neueregular';
-font-size:20px;
-text-align: center;
-letter-spacing: 10px;
-text-decoration: none;
-margin-bottom: 20px;
-}
 ul {
 display:block;
 position: absolute;
@@ -85,18 +76,10 @@ padding: 0;
     letter-spacing: 10px;
     text-decoration: none;
 }
-.fa-arrow-right, .fa-twitter, .fa-linkedin-square, .fa-envelope-o {
-    color: white;
-    font-size:20px;
-    text-align: center;
-    margin: 0 auto;
-    letter-spacing: 10px;
-    text-decoration: none;
-}
 li {
     color: white;
     font-size:20px;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
     text-decoration: none;
     list-style: none;
     width: 50%;
@@ -129,7 +112,7 @@ p {
     text-align: center;
     font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
     margin-top: 0;
 }
 a.fa-home, a.fa-female, a.fa-desktop, a.fa-phone {
