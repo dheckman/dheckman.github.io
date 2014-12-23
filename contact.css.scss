@@ -9,6 +9,17 @@ body {
 	margin-top: 100px;
 	text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 	margin-bottom: 0px;
+	background-position: -0% 0;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ace4e3 50%);
+  transition: background-position 0.5s ease-out;
+  -webkit-transition: background-position 0.5s ease-out;
+  background-size: 200% auto;
+  -webkit-background-size: 200% auto;
+  -moz-background-size: 200% auto;
+}
+.contact:hover {
+	background-position: -100% 0;
+
 }
 .contact-sub {
 	color: #888;
@@ -26,9 +37,18 @@ a.resume {
 	color: #ed786a;
 	font-size: 45px;
 	text-transform: uppercase;
+	background-position: -0% 0;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ace4e3 50%);
+  transition: background-position 0.5s ease-out;
+  -webkit-transition: background-position 0.5s ease-out;
+  background-size: 200% auto;
+  -webkit-background-size: 200% auto;
+  -moz-background-size: 200% auto;
+  
 }
 a.phone:hover, a.email:hover, a.resume:hover {
-	color: #888;
+	background-position: -100% 0;
+
 }
 a.github, a.twitter, a.linkedin {
 	color: #888;

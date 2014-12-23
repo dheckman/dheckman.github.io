@@ -11,6 +11,16 @@ body {
 	color: #ed786a;
 	text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 	margin-top: 100px;
+	background-position: -0% 0;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ace4e3 50%);
+  transition: background-position 0.5s ease-out;
+  -webkit-transition: background-position 0.5s ease-out;
+  background-size: 200% auto;
+  -webkit-background-size: 200% auto;
+  -moz-background-size: 200% auto;
+}
+.work-title:hover {
+	background-position: -100% 0;
 
 }
 .ramble {
