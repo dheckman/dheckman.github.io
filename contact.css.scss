@@ -17,11 +17,16 @@ body {
 	text-align: center;
 	letter-spacing: 1px;
 }
-a.phone, a.email, a.resume {
+a.phone, a.email {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #ed786a;
 }
-a.phone:hover, a.email:hover {
+a.resume {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ed786a;
+	font-size: 45px;
+}
+a.phone:hover, a.email:hover, a.resume:hover {
 	color: #888;
 }
 a.github, a.twitter, a.linkedin {
