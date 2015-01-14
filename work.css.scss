@@ -89,7 +89,6 @@ p, p.about-ramble {
 	font-weight: 300;
 	color: #ed786a;
 	text-align: center;
-	width: 412px;
 }
 .code {
 	width: auto;
@@ -167,6 +166,10 @@ header {
 }
 .lang {
 	color: #888;
+}
+.languages {
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 /* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
