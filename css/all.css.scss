@@ -46,7 +46,7 @@
 }
 
 body {
-    background: url("http://i.imgur.com/GysUqFw.jpg");
+    background: url("http://i.imgur.com/GysUqFw.jpg") !important;
     background-size: cover;
 }
 .title_first_name {
@@ -106,6 +106,8 @@ li {
     }
 span {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
 }
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -120,22 +122,14 @@ a.fa-home, a.fa-female, a.fa-desktop, a.fa-phone {
     color: #888;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 3px;
 }
-    a
-    {
-        color: #666;
-        text-decoration: none;
-    }
-
-       
-    
-        a:hover
-        {
-            color: #ed786a;
-        }
-        
-        a:hover strong
-        {
-            color: #ed786a;
-        }
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #ed786a !important;
+}
+a:hover strong {
+    color: #ed786a;
+}

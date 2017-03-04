@@ -28,6 +28,11 @@ body {
 	text-align: center;
 	letter-spacing: 1px;
 }
+span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
 a.phone, a.email {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #ed786a;
@@ -70,10 +75,9 @@ a.github:hover, a.twitter:hover, a.linkedin:hover {
 	border-left: none;
 }
 a.fa-home, a.fa-female, a.fa-desktop, a.fa-phone {
-	color: #888;
-	font-size: 12px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
+    color: #888;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 .fa-github, .fa-twitter, .fa-linkedin-square {
 	color: #ed786a;
