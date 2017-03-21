@@ -63,8 +63,9 @@ a.github:hover, a.twitter:hover, a.linkedin:hover {
 	color: #ed786a;
 }
 
-.links {
+li.links {
 	margin-top: 10px;
+  letter-spacing: 1px;
 }
 .contact-divider {
 	width: 450px;
@@ -111,6 +112,7 @@ li {
 
 li.phone, li.email {
   letter-spacing: 0px;
+  font-size: inherit;
 }
 
 a {
