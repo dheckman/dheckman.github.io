@@ -51,7 +51,7 @@ a.fa-home, a.fa-female, a.fa-desktop, a.fa-phone {
 
 #nav {
     position: absolute;
-    top: 3em;
+    top: 3.5em;
     left: 0;
     width: 100%;
 }
@@ -636,3 +636,306 @@ header {
 					width: auto;
 				}
 
+
+			
+	/* Table */
+	
+		table
+		{
+			width: 100%;
+		}
+		
+			table.default 
+			{
+				width: 100%;
+			}
+			
+				table.default  tbody tr
+				{
+					border-top: solid 1px #E5E5E5;
+				}
+
+				table.default  tbody tr:first-child
+				{
+					border-top: 0;
+				}
+			
+				table.default  td
+				{
+					padding: 0.75em 1em 0.75em 1em;
+				}
+				
+				table.default  th
+				{
+					text-align: left;
+					font-weight: bold;
+					padding: 0.75em 1em 0.75em 1em;
+				}
+			
+				table.default  thead
+				{
+					background: #878787;
+					color: #fff;
+					font-weight: 400;
+					text-transform: uppercase;
+					border: 0;
+					box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
+				}
+				
+				table.default  tfoot
+				{
+					background: #F0F0F0;
+					border-top: solid 2px #E5E5E5;
+				}
+				
+				table.default  tbody
+				{
+				}
+
+	/* Button */
+		
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		.button
+		{
+			-webkit-appearance: none;
+			position: relative;
+			display: inline-block;
+			background: #ed786a;
+			color: #fff !important;
+			text-transform: uppercase;
+			border-radius: 4px;
+			border: 0;
+			outline: 0;
+			font-size: 1em;
+			box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
+			font-weight: 600;
+			-moz-transition: all 0.25s ease-in-out;
+			-webkit-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+			text-align: center;
+		}
+
+			.button.icon:before
+			{
+				position: relative;
+				padding-right: 0.75em;
+				opacity: 0.5;
+				top: 0.05em;
+			}
+
+			input[type="button"]:hover,
+			input[type="submit"]:hover,
+			input[type="reset"]:hover,
+			.button:hover
+			{
+				background: #fd887a;
+			}
+			
+			input[type="button"]:active,
+			input[type="submit"]:active,
+			input[type="reset"]:active,
+			.button:active
+			{
+				background: #ed786a;
+			}
+		
+			input[type="button"].alt,
+			input[type="submit"].alt,
+			input[type="reset"].alt,
+			.button.alt
+			{
+				background: #878787;
+			}
+
+				input[type="button"].alt:hover,
+				input[type="submit"].alt:hover,
+				input[type="reset"].alt:hover,
+				.button.alt:hover
+				{
+					background: #979797;
+				}
+				
+				input[type="button"].alt:active,
+				input[type="submit"].alt:active,
+				input[type="reset"].alt:active,
+				.button.alt:active
+				{
+					background: #878787;
+				}
+
+	/* Box */
+
+		.box
+		{
+		}
+		
+			.box.excerpt
+			{
+			}
+			
+				.box.excerpt .date
+				{
+					background: #878787;
+					color: #fff;
+					font-weight: 400;
+					text-transform: uppercase;
+					border-radius: 4px;
+					border: 0;
+					box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
+				}
+
+/*********************************************************************************/
+/* Icons                                                                         */
+/*********************************************************************************/
+
+	.icon {
+		position: relative;
+		text-decoration: none;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		position: relative;
+		background: #fff;
+		text-align: center;
+	}
+
+		#header-wrapper p
+		{
+			text-align: center;
+		}
+	
+	#banner-wrapper
+	{
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		color: #fff;
+		text-align: center;
+		border-top: solid 2px #e5e5e5;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+	}
+
+		#banner-wrapper .inner
+		{
+			background: url('../images/banner.jpg');
+			background-size: cover;
+		}
+
+		#banner-wrapper p
+		{
+			text-align: center;
+		}
+	
+	#features-wrapper
+	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+		#features-wrapper p
+		{
+			text-align: center;
+		}
+	
+		#features-wrapper .actions
+		{
+			margin-top: 1.25em;
+		}
+
+	#main-wrapper
+	{
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+	}
+	
+	#footer-wrapper
+	{
+		position: relative;
+		overflow: hidden;
+		border-top: solid 2px #e5e5e5;
+		background: #f0f0f0;
+	}
+	
+		#footer-wrapper form input[type="text"],
+		#footer-wrapper form input[type="email"],
+		#footer-wrapper form input[type="password"],
+		#footer-wrapper form select,
+		#footer-wrapper form textarea
+		{
+			background: #f7f7f7;
+		}
+		
+			#footer-wrapper form input[type="text"]:focus,
+			#footer-wrapper form input[type="email"]:focus,
+			#footer-wrapper form input[type="password"]:focus,
+			#footer-wrapper form select:focus,
+			#footer-wrapper form textarea:focus
+			{
+				background: #fff;
+			}
+		
+		#footer-wrapper h2
+		{
+			text-align: center;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	
+	#header
+	{
+		position: relative;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+	}
+
+		#header h1
+		{
+			font-family: 'Arvo';
+			font-weight: 700;
+			color: #ed786a;
+			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+		}
+
+			#header h1 a
+			{
+				border: 0;
+			}
+		
+		#header p
+		{
+			text-transform: uppercase;
+			font-weight: 400;
+			color: #888;
+		}
+
+
+	
+	
+	
