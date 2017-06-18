@@ -7,22 +7,21 @@
   <script src="https://use.fontawesome.com/d939869cf7.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $('#header').load('header.html');
+    });
+  </script>
   <title>Dheckman.github.io</title>
 </head>
 <body>
 <div class="large-12 columns">
-  <nav id="nav">
-    <ul>
-      <li>
-        <a class="fa fa-home" href="index.html"><span>Home</span></a> 
-        <a class="fa fa-female" href="about.html"><span>About Me</span></a>
-        <a class="fa fa-desktop" href="work.html"><span>Projects</span></a>
-        <a class="fa fa-phone" href="contact.html"><span>Contact Me</span></a>
-      </li>
-    </ul>
-  </nav>
+  <div id="header"></div>
 </div>
-
 <h2 class="contact">get in touch:</h2>
 <p class="contact-sub">Let's chat about web development, design and our favorite TV shows to binge-watch.</p>
 <div class="contact_links">
